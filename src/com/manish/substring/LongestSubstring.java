@@ -7,7 +7,7 @@ public class LongestSubstring {
 	public String longestString = "";
 	public int maxLen = 0;
 
-	public void NonRepeatingSubstring(String input) {
+	public void nonRepeatingSubstring(String input) {
 		if (input == null || input == "") {
 			return;
 		}

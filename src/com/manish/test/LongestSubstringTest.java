@@ -16,7 +16,7 @@ class LongestSubstringTest {
 	@Test
 	void test() {
 		LongestSubstring lst = new LongestSubstring();
-		lst.NonRepeatingSubstring("abcaded");
+		lst.nonRepeatingSubstring("abcaded");
 		System.out.println(lst.longestString+"   "+lst.maxLen);
 		assertEquals(lst.maxLen, 5, "passed");
 	}
